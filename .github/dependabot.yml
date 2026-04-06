@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # To get started with Dependabot version updates, you'll need to specify which
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
@@ -23,3 +24,30 @@ updates:
       prefix: "👷"
     labels:
       - "dependencies"
+=======
+# To get started with Dependabot version updates, you'll need to specify which
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+    commit-message:
+      prefix: "📌"
+    labels:
+      - "dependencies"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+    commit-message:
+      prefix: "👷"
+    labels:
+      - "dependencies"
+>>>>>>> source/main

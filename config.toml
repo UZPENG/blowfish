@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 [module]
 [module.hugoVersion]
 extended = true
 min = "0.141.0"
 max = "0.152.2"
+=======
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.141.0"
+max = "0.159.1"
+>>>>>>> source/main

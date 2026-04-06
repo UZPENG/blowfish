@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [build]
   command = "cd exampleSite && hugo --gc --minify -D -b https://blowfish.page"
   publish = "exampleSite/public"
@@ -5,4 +6,13 @@
 [build.environment]
 HUGO_VERSION = "0.142.0"
 HUGO_THEMESDIR = "../.."
+=======
+[build]
+  command = "cd exampleSite && hugo --gc --minify -D -b https://blowfish.page"
+  publish = "exampleSite/public"
+
+[build.environment]
+HUGO_VERSION = "0.155.3"
+HUGO_THEMESDIR = "../.."
+>>>>>>> source/main
 HUGO_THEME = "repo"
