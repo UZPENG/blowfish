@@ -1,33 +1,3 @@
-<<<<<<< HEAD
----
-title: "Per iniziare"
-weight: 3
-draft: false
-description: "Tutte le variabili del front matter sono disponibili in Blowfish."
-slug: "per-iniziare"
-tags: ["installazione", "documenti"]
-series: ["Documentazione"]
-series_order: 3
----
-
-{{< alert >}}
-Questa sezione presuppone che tu abbia già [installato il tema Blowfish]({{< ref "docs/installation" >}}).
-{{< /alert >}}
-
-</br>
-{{< alert "fire" >}}
-Abbiamo appena lanciato uno strumento CLI per aiutarvi a iniziare con Blowfish. Vi aiuterà con l'installazione e la configurazione. Installate lo strumento CLI a livello globale utilizzando:
-```bash
-npx blowfish-tools
-```
-{{< /alert >}}
-
-I file di configurazione forniti con Blowfish contengono tutte le possibili impostazioni riconosciute dal tema. Per impostazione predefinita, molti di questi sono commentati ma puoi semplicemente decommentarli per attivare o modificare una funzionalità specifica.
-
-## Configurazione di base
-
-Prima di creare qualsiasi contenuto, è necessario impostare alcune cose per una nuova installazione. Iniziando dal file `hugo.toml`, imposta i parametri `baseURL` e `lingualCode`. Il `lingualCode` dovrebbe essere impostato sulla lingua principale che utilizzerai per creare i tuoi contenuti.
-=======
 
 ```toml
 # config/_default/hugo.toml
@@ -524,4 +494,3 @@ Inoltre, Blowfish supporta anche una background hero  image in articoli ed elenc
 ## Dettagli di configurazione
 
 I passaggi precedenti rappresentano la configurazione minima. Se ora esegui `hugo server` ti verrà presentato un sito web Blowfish vuoto. La configurazione dettagliata è trattata nella sezione [Configurazione]({{< ref "configuration" >}}).
->>>>>>> source/main
